@@ -1,0 +1,33 @@
+Redux
+https://redux.js.org/introduction/getting-started
+https://react-redux.js.org/introduction/getting-started
+
+https://app.egghead.io/playlists/fundamentals-of-redux-course-from-dan-abramov-bd5cc867
+https://www.educative.io/courses/practical-redux
+https://www.freecodecamp.org/news/how-to-use-redux-in-reactjs-with-real-life-examples-687ab4441b85/
+
+
+STEPS:
+npx create-react-app first_redux
+
+npm install --save redux
+npm install --save @reduxjs/toolkit
+npm install --save redux-thunk
+npm install --save react-router-dom
+
+
+Redux prep: 
+
+npm i --save @reduxjs/toolkit //to use template same as npx create react app it sets up and build the defaults for us so we do not have to do it manuallly
+npm i --save redux react-redux // to do it manually
+npm i --save @types/react-redux //for typescript
+
+# Redux + Plain JS template
+npx create-react-app my-app --template redux
+
+# Redux + TypeScript template
+npx create-react-app my-app --template redux-typescript
+
+
+npm install --save @reduxjs/toolkit redux react-redux react-router-dom
+
